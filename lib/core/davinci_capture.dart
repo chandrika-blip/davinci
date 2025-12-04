@@ -7,7 +7,6 @@ import 'package:davinci/core/davinci_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:gal/gal.dart';
 import 'package:open_filex/open_filex.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -256,6 +255,6 @@ class DavinciCapture {
 
     /// The image is saved with the file path and to the album if defined,
     /// if the album is null, it saves to the all pictures.
-    await Gal.putImage(file.path, album: album);
+    
   }
 }
